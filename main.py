@@ -24,7 +24,7 @@ if __name__ == "__main__":
   kml = simplekml.Kml(name="Non-Compliance", open=1)
 
   # Create a new document
-  doc = kml.newdocument(name="A Document")
+  # doc = kml.newdocument(name="A Document")
 
   # Folder containing polygons with style
   fol = kml.newfolder(name="Schools", description="Known Points of Noncompliance")
