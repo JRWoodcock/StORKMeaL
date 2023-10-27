@@ -37,4 +37,4 @@ if __name__ == "__main__":
     pol.style.polystyle.color = 'AA000099' #This Red gives a transparent effect
 
   # Save the file
-  kml.save("NC.kml")
+  kml.save("Gulfport.kml")
