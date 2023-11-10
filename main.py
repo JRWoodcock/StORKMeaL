@@ -10,7 +10,7 @@ if __name__ == "__main__":
   radius = 3000
 
   # Import the data from the CSV
-  data = models.csv_to_dict("Diberville.csv")
+  data = models.csv_to_dict("Long-Beach.csv")
 
   #Create a blank list to store the instances in
   places = []
@@ -37,4 +37,4 @@ if __name__ == "__main__":
     pol.style.polystyle.color = 'AA000099' #This Red gives a transparent effect
 
   # Save the file
-  kml.save("Diberville.kml")
+  kml.save("Long_Beach.kml")
